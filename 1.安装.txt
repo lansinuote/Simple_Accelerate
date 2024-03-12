@@ -1,0 +1,12 @@
+#安装
+#pip install accelerate
+
+#初始化配置文件
+#accelerate config
+
+#查看配置文件
+#vim /root/.cache/huggingface/accelerate/default_config.yaml
+
+#测试
+#accelerate test
+#accelerate test --config_file /root/.cache/huggingface/accelerate/default_config.yaml
